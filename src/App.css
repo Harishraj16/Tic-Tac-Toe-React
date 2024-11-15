@@ -1,0 +1,26 @@
+.outer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.turn{
+  padding: 10px;
+  margin: 10px;
+}
+
+.inner{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+button{
+  min-width: 6rem;
+  min-height: 6rem;
+  font-size: 1.5rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
